@@ -1,0 +1,33 @@
+/* @media screen and (max-width:576px){
+    .custom-row{
+        flex-wrap: wrap;
+    }
+    .custom-container{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width:991px){
+    .column-box{
+        width: 50%;
+    }
+} */
+
+
+@media screen and (max-width:991px){
+    .cust-Col1,.cust-Col2,.cust-Col3,.cust-Col4{
+        width: 50%;
+    }
+    .cust-Row{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:576px){
+    .cust-Col1,.cust-Col2,.cust-Col3,.cust-Col4{
+        width: 100%;
+    }
+    .cust-Row{
+        flex-wrap: wrap;
+    }
+}

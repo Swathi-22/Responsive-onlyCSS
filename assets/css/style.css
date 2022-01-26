@@ -1,0 +1,56 @@
+.column-box1{
+    background-color: aquamarine;
+    margin: 10px 10px 10;
+}
+.column-box2{
+    background-color: blueviolet;
+}
+.column-box3{
+    background-color: palevioletred;
+}
+.column-box4{
+    background-color: grey;
+}
+.custom-container{
+    margin-left: 113px;
+    margin-right: 113px;
+}
+.custom-row{
+    display: flex;
+}
+.custom-ptag{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.custom-column1{
+    background-color: rgb(62, 138, 112);
+}
+.custom-column2{
+    background-color: rgb(156, 4, 161);
+}
+.custom-column3{
+    background-color: rgb(197, 5, 69);
+
+}
+.custom-column4{
+    background-color: rgb(40, 156, 172);
+}
+.cust-Col1{
+    background-color: chocolate;
+    width: 25%;
+}
+.cust-Col2{
+    background-color: crimson;
+    width: 25%;
+}
+.cust-Col3{
+    background-color: darkgoldenrod;
+    width: 25%;
+}
+.cust-Col4{
+    background-color: darkolivegreen;
+    width: 25%;
+}
+.cust-Row{
+    display: flex;
+}
