@@ -1,4 +1,13 @@
-/* @media screen and (max-width:576px){
+@media screen and (max-width:991px) {
+    .column-box {
+        width: 50%;
+    }
+    .custom-row{
+        flex-wrap:wrap;
+    }
+}
+
+ @media screen and (max-width:576px){
     .custom-row{
         flex-wrap: wrap;
     }
@@ -6,12 +15,12 @@
         margin-left: 0px;
         margin-right: 0px;
     }
-}
-@media screen and (max-width:991px){
-    .column-box{
-        width: 50%;
+    .custom-column1, .custom-column2, .custom-column3, .custom-column4 {
+        width:100%;
     }
-} */
+
+}
+
 
 
 @media screen and (max-width:991px){
